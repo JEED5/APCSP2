@@ -1,0 +1,38 @@
+            .heading {
+                padding: 60px;
+                font-size: 25px;
+                text-align: center;
+                background: red;
+            }
+           
+ 
+            .section {
+               background-color: #0000FF;
+               padding: 20px;
+               margin-top: 30px;
+            }
+
+            .movie {
+              background-color: red;
+              padding: 20px;
+              margin-top: 30px;
+
+            }
+
+             /* This code below is the code from chatGPT. It added a nice tan background color for the quotes section. 
+             And it added a cool effect that when I hover over a image it expands kinda making it pop out. */
+
+            .testimonial {
+              background-color: #f5f5dc;
+            }
+            
+            img:hover {
+            transform: scale(1.2);
+            transition: transform 0.3s ease;
+            }
+
+            h3:hover {
+          color: #007bff;
+            }
+
+
